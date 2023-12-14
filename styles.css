@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+
+/* *{
+    font-family: 'Mina', sans-serif;
+} */
+
+body{
+    background-color: #242424;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+}
+/* .container_btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
+button {
+    width: 90px;
+    height: 35px;
+    margin-top: 25px;
+    align-content: right;
+    margin-right: 30px;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Mina', sans-serif;
+}
+
+.container_rules {
+    font-family: 'Mina', sans-serif;
+    color: white;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.rules_intro{
+    /* margin: 10px; */
+    font-weight: 550;
+}
+
+canvas{
+    border:1px solid white;
+    border-radius: 5px;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(181, 175, 175);
+}
+
+.footer_icons {
+    /* padding-top: 50px; */
+    text-align: end;
+    align-content: end;
+    line-height: .5rem;
+}

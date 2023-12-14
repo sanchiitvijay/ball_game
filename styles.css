@@ -36,12 +36,12 @@ button {
     margin-left: 30px;
     margin-right: 20px;
 }
-.rules_intro{
+.rules_intro {
     /* margin: 10px; */
     font-weight: 550;
 }
 
-canvas{
+canvas {
     border:1px solid white;
     border-radius: 5px;
 }
@@ -56,6 +56,7 @@ a:hover {
 
 .footer_icons {
     /* padding-top: 50px; */
+    margin-top: -2.5rem;
     text-align: end;
     align-content: end;
     line-height: .5rem;
